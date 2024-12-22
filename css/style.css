@@ -44,7 +44,7 @@ body {
 
 .orbit {
     position: absolute;
-    border: 1px dashed rgb(248, 246, 246);
+    border: 0.5px dashed rgb(248, 246, 246);
     border-radius: 50%;
     z-index: 1; /* Ensure orbits stay behind planets */
     pointer-events: none; /* Prevent orbits from blocking clicks */
@@ -140,4 +140,35 @@ border: 1px solid rgb(97, 93, 93);
     font-weight: bold;
     color: yellow; 
     
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .solar-system {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 992px) {
+    .solar-system {
+        transform: scale(0.6);
+    }
+}
+
+@media (max-width: 768px) {
+    .solar-system {
+        transform: scale(0.5);
+    }
+}
+
+@media (max-width: 576px) {
+    .solar-system {
+        transform: scale(0.4);
+    }
+}
+
+@media (max-width: 400px) {
+    .solar-system {
+        transform: scale(0.3);
+    }
 }
