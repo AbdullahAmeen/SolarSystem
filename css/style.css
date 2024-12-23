@@ -25,7 +25,7 @@ body {
     height: 80px;
     background: radial-gradient(circle, rgb(245, 241, 23), orange, rgb(248, 94, 5));
     border-radius: 50%;
-    box-shadow: 0 0 50px yellow;
+    box-shadow: 0 0 80px yellow;
     position: absolute;
     cursor: pointer;
     z-index: 10;
@@ -51,7 +51,7 @@ body {
 
 .orbit {
     position: absolute;
-    border: 0.5px dashed rgb(248, 246, 246);
+    border: 0.5px solid white;
     border-radius: 50%;
     z-index: 1; /* Ensure orbits stay behind planets */
     pointer-events: none; /* Prevent orbits from blocking clicks */
@@ -124,13 +124,14 @@ border: 1px solid rgb(97, 93, 93);
     left: 50%;
     transform: translate(-50%, -50%);
     background: #363534;
-    padding: 10px;
+    padding: 6px;
     color: white;
     border: 1px solid rgb(255, 255, 255);
     text-align: center;
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: 0 0 4px rgb(250, 249, 249);
     z-index: 2000;
+    font-size: 12px;
 }
 
 .close {
