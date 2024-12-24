@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     margin-top: 50px;
-    background: black;
+    background-image: url(../data/webappbackgroundimage.png);
     overflow-x: hidden;
     font-size: 13px;
     padding: 0;
@@ -25,7 +25,7 @@ body {
     height: 80px;
     background: radial-gradient(circle, rgb(245, 241, 23), orange, rgb(248, 94, 5));
     border-radius: 50%;
-    box-shadow: 0 0 80px yellow;
+    box-shadow: 0 0 100px 100px rgba(245, 223, 31, 0.6);
     position: absolute;
     cursor: pointer;
     z-index: 10;
@@ -72,20 +72,21 @@ body {
 .mercury { background: rgb(198, 199, 169); 
 height: 20px;
 width: 20px;
-border: 1px solid rgb(97, 93, 93);
+border: 1px solid rgb(240, 224, 138);
 
 }
 .venus { background: orange; 
     height: 28px;
     width: 28px;
-   }
-.earth { background: radial-gradient(circle, #44f518, #115a13, #2196f3,  #eff0ed);
+       }
+.earth { background: radial-gradient(circle, #44f518, #115a13, #197fd3,  #eff0ed);
         height: 33px;
         width: 33px;
  }
 .mars { background: radial-gradient(circle, rgb(112, 97, 97), rgb(138, 131, 90), tan, #e7dede); 
         height: 23px;
-        width: 23px;}
+        width: 23px;
+        border: 0.5px solid rgb(255, 252, 252);}
 .jupiter { background: radial-gradient(circle, #e9ab82, #ec4f05);
     height: 52px;
     width: 52px;
