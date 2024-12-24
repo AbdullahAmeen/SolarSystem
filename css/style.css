@@ -181,3 +181,13 @@ border: 1px solid rgb(240, 224, 138);
         transform: scale(0.5);
     }
 }
+
+.anchortags{
+    color: rgb(134, 230, 243);
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+
+}
