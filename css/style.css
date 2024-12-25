@@ -23,9 +23,9 @@ body {
 .sun {
     width: 80px;
     height: 80px;
-    background: radial-gradient(circle at 30% 30%, rgb(255, 223, 0), rgb(255, 140, 0), rgb(255, 69, 0)); /* Yellow to Orange gradient */
+    background: radial-gradient(circle at 30% 30%, rgb(255, 223, 0), rgb(255, 140, 0), rgb(241, 206, 7)); /* Yellow to Orange gradient */
     border-radius: 50%;
-    box-shadow: 0 0 90px 50px rgba(245, 225, 46, 0.6), /* Outer glow */
+    box-shadow: 0 0 90px 50px rgba(245, 225, 46, 0.6),
                 inset 0 0 10px rgba(255, 255, 255, 0.5), /* Inner glow */
                 0 0 10px rgba(255, 69, 0, 0.5); /* Outer shadow */
     position: absolute;
@@ -58,6 +58,7 @@ body {
     z-index: 1; /* Ensure orbits stay behind planets */
     pointer-events: none; /* Prevent orbits from blocking clicks */
     animation: orbit-rotation linear infinite;
+   
 }
 
 /* Orbit Sizes */
@@ -70,12 +71,11 @@ body {
 .uranus-orbit { width: 620px; height: 620px; animation-duration: 84s; }
 .neptune-orbit { width: 720px; height: 720px; animation-duration: 110s; }
 
-/* Planet Colors with Actual Images */
+/* Planet Colors with Satellite Images */
 .mercury { 
     background: url('../images/mercury.png') no-repeat center center / cover; /* Mercury image */
-    height: 20px;
-    width: 20px;
-    border: 1px solid rgb(240, 224, 138);
+    height: 26px;
+    width: 26px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .venus { 
@@ -86,14 +86,14 @@ body {
 }
 .earth { 
     background: url('../images/earth.png') no-repeat center center / cover; /* Earth image */
-    height: 33px;
-    width: 33px;
+    height: 35px;
+    width: 35px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .mars { 
     background: url('../images/mars.png') no-repeat center center / cover; /* Mars image */
-    height: 24px;
-    width: 24px;
+    height: 30px;
+    width: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .jupiter { 
